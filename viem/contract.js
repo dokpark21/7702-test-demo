@@ -1,4 +1,4 @@
-export const contractAddress = // contract address;
+export const contractAddress = // contract address
 
 export const abi = [
   {

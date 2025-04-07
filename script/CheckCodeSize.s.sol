@@ -12,8 +12,8 @@ contract CheckCodeSize is Script {
 
     function setUp() public {
         delegation = new Delegation();
-        myAdd = 0x3111d80ac22263D7637397a11Df5C99d0e78573D;
-        myPK = 0x6fde03c9ba6e8cd06dfe7eba4bc608fbb4fc76ece307653a10294fd05084ed01;
+        myAdd = /** addr */;
+        myPK = /** pv key*/;
     }
 
     function run() public {
@@ -30,7 +30,7 @@ contract CheckCodeSize is Script {
 
         assembly {
             codeSizeBefore := extcodesize(
-                0x3111d80ac22263D7637397a11Df5C99d0e78573D
+                /** addr */
             )
         }
 
